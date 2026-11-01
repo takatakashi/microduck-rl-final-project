@@ -1,0 +1,11 @@
+{
+  "name": "smoke",
+  "condition": "baseline",
+  "seed": 42,
+  "num_envs": 1024,
+  "total_iterations": 5,
+  "save_interval": 1,
+  "checkpoint_seconds": 300,
+  "initialization": "scratch",
+  "change": null
+}

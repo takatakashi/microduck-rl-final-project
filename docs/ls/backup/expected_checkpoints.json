@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "evidence": "Hashes from the inspected evaluation records; no weights are included in this JSON.",
+  "checkpoints": [
+    {
+      "archive_path": "run/baseline/model_1000.pt",
+      "role": "目標到達の移動用",
+      "checkpoint_sha256": "fb0af9931efbeba32ec706525716352bb51b07e04244bc532738e59f4b9aa644",
+      "metadata": {
+        "completed_iterations": 1001,
+        "total_env_steps": 24600576,
+        "source_sha256": "10a51dfac51a0211a557deadd483c05a5a93018929f7c96323d524714be66f09",
+        "lock_sha256": "2eeeb680025baa737e7ccf3a87da3695a9d49b228de0bb60d8af0c022ab5f1aa",
+        "upstream_commit": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
+        "configuration_sha256": "0344ead5e29e88bfb58bc606e2f9831978a65199637ef965fcc44fa7a55ee0fa"
+      }
+    },
+    {
+      "archive_path": "run/baseline/final.pt",
+      "role": "目標到達の停止用・標準条件の最終モデル",
+      "checkpoint_sha256": "cada0bb9df81809361b5d5b7cb669aa90d1cbd8e2ca8ade2a4f79abdcf5b8037",
+      "metadata": {
+        "completed_iterations": 4000,
+        "total_env_steps": 98304000,
+        "source_sha256": "10a51dfac51a0211a557deadd483c05a5a93018929f7c96323d524714be66f09",
+        "lock_sha256": "2eeeb680025baa737e7ccf3a87da3695a9d49b228de0bb60d8af0c022ab5f1aa",
+        "upstream_commit": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
+        "configuration_sha256": "0344ead5e29e88bfb58bc606e2f9831978a65199637ef965fcc44fa7a55ee0fa"
+      }
+    },
+    {
+      "archive_path": "run/low_speed/final.pt",
+      "role": "比較用の低速条件の最終モデル",
+      "checkpoint_sha256": "b0f733d83d343cc466c62a2ee3d4082fd3dd82aefdaa82a3a844435d387a8e0b",
+      "metadata": {
+        "completed_iterations": 4000,
+        "total_env_steps": 98304000,
+        "source_sha256": "10a51dfac51a0211a557deadd483c05a5a93018929f7c96323d524714be66f09",
+        "lock_sha256": "2eeeb680025baa737e7ccf3a87da3695a9d49b228de0bb60d8af0c022ab5f1aa",
+        "upstream_commit": "53b8971b61baf5b7f3c16d135dd7cac37623de4b",
+        "configuration_sha256": "74860f0963fc89f453ed1aee0f84a3e8a5ce2fbfc824d21b8e7ed2ec2e116b84"
+      }
+    }
+  ]
+}

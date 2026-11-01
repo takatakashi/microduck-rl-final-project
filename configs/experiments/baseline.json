@@ -1,0 +1,11 @@
+{
+  "name": "baseline",
+  "condition": "baseline",
+  "seed": 42,
+  "num_envs": 1024,
+  "total_iterations": 4000,
+  "save_interval": 100,
+  "checkpoint_seconds": 300,
+  "initialization": "scratch",
+  "change": null
+}

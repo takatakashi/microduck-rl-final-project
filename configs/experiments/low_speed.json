@@ -1,0 +1,12 @@
+{
+  "name": "low_speed",
+  "condition": "low_speed",
+  "seed": 42,
+  "num_envs": 1024,
+  "total_iterations": 4000,
+  "save_interval": 100,
+  "checkpoint_seconds": 300,
+  "initialization": "scratch",
+  "change": {"path": "commands.twist.ranges.lin_vel_x", "expected": [-0.4, 0.4], "value": [-0.2, 0.2]},
+  "hypothesis": "前後速度のサンプリングを低速へ集中させると、低速追従と停止が改善するかを調べる。標準学習の実測後に採否を決める。"
+}
